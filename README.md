@@ -88,8 +88,8 @@ Animal-detection-model/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/animal-detection-model.git
-cd animal-detection-model
+git clone https://github.com/priyaansuuu/Animal_Detection_Model.git
+cd Animal_Detection_Model
 ```
 
 ---
@@ -157,14 +157,7 @@ Results will be saved with bounding boxes.
 
 ## 📤 Model Export (for deployment)
 
-The model can be exported to ONNX:
-
-```python
-model.export(format="onnx")
-```
-
-This makes it suitable for:
-
+The model is also exported in ONNX format which is light, making it suitable for wider applictions such as:
 * Raspberry Pi
 * Edge devices
 * Lightweight inference
