@@ -5,9 +5,9 @@ import cv2
 import os
 
 
-MODEL_PATH = "../model/best.pt"  # or best.onnx
+MODEL_PATH = "../model/runs/animal_model/wwights/best.pt"  # or best.onnx
 SOURCE = "../test_images"  # image / folder / video / 0 for webcam
-SAVE_DIR = "../predictions"
+SAVE_DIR = "../predictions/results"
 
 def load_model():
     model = YOLO(MODEL_PATH)
