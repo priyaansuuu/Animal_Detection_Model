@@ -7,7 +7,7 @@ import os
 
 MODEL_PATH = "../model/runs/animal_model/wwights/best.pt"  # or best.onnx
 SOURCE = "../test_images"  # image / folder / video / 0 for webcam
-SAVE_DIR = "../predictions/results"
+SAVE_DIR = "../predictions"
 
 def load_model():
     model = YOLO(MODEL_PATH)
