@@ -85,6 +85,8 @@ Animal-detection-model/
 
 ## ⚙️ Setup Instructions
 
+## Always work in the directory in which the file is present
+
 ### 1. Clone the repository
 
 ```bash
@@ -136,7 +138,7 @@ This will:
 
 * Load the dataset
 * Train the YOLOv8 model
-* Save weights in `model/runs/`
+* Save weights in `model/runs/animal_model`
 
 ---
 
